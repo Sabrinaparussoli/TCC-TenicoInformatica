@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{069258F6-C7AC-4982-B32C-E01E5586B7BC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>WindowsApplication1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cadastrar cliente.Designer.vb">
+      <DependentUpon>cadastrar cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cadastrar cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastrar fornecedor.Designer.vb">
+      <DependentUpon>cadastrar fornecedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cadastrar fornecedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastrar funcionario.Designer.vb">
+      <DependentUpon>cadastrar funcionario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cadastrar funcionario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cadastrar materia prima.Designer.vb">
+      <DependentUpon>cadastrar materia prima.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cadastrar materia prima.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cliente.Designer.vb">
+      <DependentUpon>cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clientesDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>clientesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="encomendaDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>encomendaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="estoque minimo.Designer.vb">
+      <DependentUpon>estoque minimo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="estoque minimo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estoque.Designer.vb">
+      <DependentUpon>estoque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="estoque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fabricanteDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fabricanteDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="funcionarioDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>funcionarioDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gerar relatorio cliente.Designer.vb">
+      <DependentUpon>gerar relatorio cliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gerar relatorio cliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gerar relatorio fornecedor.Designer.vb">
+      <DependentUpon>gerar relatorio fornecedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gerar relatorio fornecedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gerar relatorio pedido.Designer.vb">
+      <DependentUpon>gerar relatorio pedido.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gerar relatorio pedido.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="localizado fornecedor.Designer.vb">
+      <DependentUpon>localizado fornecedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="localizado fornecedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="localizado mp.Designer.vb">
+      <DependentUpon>localizado mp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="localizado mp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="localizado.Designer.vb">
+      <DependentUpon>localizado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="localizado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="localizar fornecedor.Designer.vb">
+      <DependentUpon>localizar fornecedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="localizar fornecedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="localizar funcionario.Designer.vb">
+      <DependentUpon>localizar funcionario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="localizar funcionario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="localizar mp.Designer.vb">
+      <DependentUpon>localizar mp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="localizar mp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="localizar.Designer.vb">
+      <DependentUpon>localizar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="localizar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="matera_primaDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>matera_primaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="matera_primaDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>matera_primaDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="pedidoDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pedidoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="pedidos.Designer.vb">
+      <DependentUpon>pedidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pedidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="produtos.Designer.vb">
+      <DependentUpon>produtos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="produtos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="produtosDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>produtosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="realizar  venda.Designer.vb">
+      <DependentUpon>realizar  venda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="realizar  venda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sistema geral.Designer.vb">
+      <DependentUpon>sistema geral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sistema geral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="solicitação de materia prima.Designer.vb">
+      <DependentUpon>solicitação de materia prima.vb</DependentUpon>
+    </Compile>
+    <Compile Include="solicitação de materia prima.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="cadastrar cliente.resx">
+      <DependentUpon>cadastrar cliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastrar fornecedor.resx">
+      <DependentUpon>cadastrar fornecedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastrar funcionario.resx">
+      <DependentUpon>cadastrar funcionario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cadastrar materia prima.resx">
+      <DependentUpon>cadastrar materia prima.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cliente.resx">
+      <DependentUpon>cliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estoque minimo.resx">
+      <DependentUpon>estoque minimo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estoque.resx">
+      <DependentUpon>estoque.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gerar relatorio cliente.resx">
+      <DependentUpon>gerar relatorio cliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gerar relatorio fornecedor.resx">
+      <DependentUpon>gerar relatorio fornecedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gerar relatorio pedido.resx">
+      <DependentUpon>gerar relatorio pedido.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="localizado fornecedor.resx">
+      <DependentUpon>localizado fornecedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="localizado mp.resx">
+      <DependentUpon>localizado mp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="localizado.resx">
+      <DependentUpon>localizado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="localizar fornecedor.resx">
+      <DependentUpon>localizar fornecedor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="localizar funcionario.resx">
+      <DependentUpon>localizar funcionario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="localizar mp.resx">
+      <DependentUpon>localizar mp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="localizar.resx">
+      <DependentUpon>localizar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pedidos.resx">
+      <DependentUpon>pedidos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="produtos.resx">
+      <DependentUpon>produtos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="realizar  venda.resx">
+      <DependentUpon>realizar  venda.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sistema geral.resx">
+      <DependentUpon>sistema geral.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="solicitação de materia prima.resx">
+      <DependentUpon>solicitação de materia prima.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="clientesDataSet.xsc">
+      <DependentUpon>clientesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="clientesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>clientesDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="clientesDataSet.xss">
+      <DependentUpon>clientesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="encomendaDataSet.xsc">
+      <DependentUpon>encomendaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="encomendaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>encomendaDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="encomendaDataSet.xss">
+      <DependentUpon>encomendaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="fabricanteDataSet.xsc">
+      <DependentUpon>fabricanteDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="fabricanteDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fabricanteDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fabricanteDataSet.xss">
+      <DependentUpon>fabricanteDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="funcionarioDataSet.xsc">
+      <DependentUpon>funcionarioDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="funcionarioDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>funcionarioDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="funcionarioDataSet.xss">
+      <DependentUpon>funcionarioDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="matera_primaDataSet.xsc">
+      <DependentUpon>matera_primaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="matera_primaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>matera_primaDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="matera_primaDataSet.xss">
+      <DependentUpon>matera_primaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="matera_primaDataSet1.xsc">
+      <DependentUpon>matera_primaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="matera_primaDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>matera_primaDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="matera_primaDataSet1.xss">
+      <DependentUpon>matera_primaDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="pedidoDataSet.xsc">
+      <DependentUpon>pedidoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="pedidoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pedidoDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="pedidoDataSet.xss">
+      <DependentUpon>pedidoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="produtosDataSet.xsc">
+      <DependentUpon>produtosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="produtosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>produtosDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="produtosDataSet.xss">
+      <DependentUpon>produtosDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="clientes.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="encomenda.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fabricante.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="funcionario.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="matera prima.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="pedido.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="produtos.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

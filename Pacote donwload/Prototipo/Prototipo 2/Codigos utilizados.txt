@@ -1,0 +1,29 @@
+Código para inserção de foto na picturebox
+
+	Dim OFD As New OpenFileDialog
+        If OFD.ShowDialog = Windows.Forms.DialogResult.OK Then
+            FotoPictureBox.ImageLocation = OFD.FileName
+        End If
+
+Código para confirmação de exclusão
+
+	If MessageBox.Show("Deseja deletar o registro?", "Deletar", MessageBoxButtons.OKCancel, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.OK Then
+            BindingNavigator.BindingSource.RemoveCurrent()
+        End If
+
+
+Código para o datagridview exibir os registros
+
+	Try
+            Me.ConsultanomeTableAdapter.Fill(Me.NutricionistaDataSet.consultanome)
+        Catch ex As System.Exception
+            System.Windows.Forms.MessageBox.Show(ex.Message)
+        End Try
+
+
+Código para confirmação de fechamento do programa
+
+	If MessageBox.Show("Tem certeza que deseja sair?", "Sair", MessageBoxButtons.OKCancel, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = Windows.Forms.DialogResult.OK Then
+            End
+        End If
+

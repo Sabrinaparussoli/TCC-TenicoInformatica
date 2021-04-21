@@ -1,0 +1,64 @@
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.sistema_geral.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.cliente.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.estoque.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pedidos.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.cadastrar_cliente.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.cadastrar_fornecedor.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\bin\Debug\clientes.mdb
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.gerar_relatorio_cliente.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.localizado.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.localizar.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.cadastrar_materia_prima.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.estoque_minimo.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.gerar_relatorio_fornecedor.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.gerar_relatorio_pedido.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.localizado_fornecedor.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.localizado_mp.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.localizar_fornecedor.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.localizar_mp.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.produtos.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.realizar__venda.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.solicitação_de_materia_prima.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.cadastrar_funcionario.resources
+C:\Users\Sabrina Parussoli\Desktop\TCC\Prototipo 2\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.localizar_funcionario.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.cadastrar_cliente.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.cadastrar_fornecedor.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.cadastrar_funcionario.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.cadastrar_materia_prima.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.cliente.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.estoque_minimo.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.estoque.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.gerar_relatorio_cliente.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.gerar_relatorio_fornecedor.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.gerar_relatorio_pedido.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.localizado_fornecedor.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.localizado_mp.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.localizado.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.localizar_fornecedor.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.localizar_funcionario.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.localizar_mp.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.localizar.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pedidos.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.produtos.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.realizar__venda.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.sistema_geral.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.solicitação_de_materia_prima.resources
+D:\TCC\Prototipo\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
